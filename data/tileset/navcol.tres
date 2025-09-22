@@ -14,16 +14,12 @@ agent_radius = 0.0
 texture = ExtResource("1_6mhl5")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
-0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
-0:0/0/physics_layer_0/angular_velocity = 0.0
 0:0/0/navigation_layer_0/polygon = SubResource("NavigationPolygon_uswgw")
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rctqh"]
 texture = ExtResource("2_jfy14")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
-0:0/0/physics_layer_0/linear_velocity = Vector2(0, 0)
-0:0/0/physics_layer_0/angular_velocity = 0.0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
 
 [resource]

@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://bdgegw7cy4d1r"]
 
-[ext_resource type="Script" path="res://scenes/ui/loginpanel/LoginPanel.gd" id="1_uhohb"]
+[ext_resource type="Script" uid="uid://b2uixs2s58vjc" path="res://scenes/ui/loginpanel/LoginPanel.gd" id="1_uhohb"]
 [ext_resource type="Theme" uid="uid://dreboohjjcn2f" path="res://assets/themes/LoginPanelTheme.tres" id="2_d6ypk"]
 [ext_resource type="Texture2D" uid="uid://bmd5m8qefqtlc" path="res://assets/images/varia/background/Untitled_Artwork.jpg" id="3_itj7r"]
 
@@ -149,9 +149,9 @@ tracks/3/keys = {
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_3bwtf"]
 _data = {
-"RESET": SubResource("Animation_hddh3"),
-"goto_createaccount": SubResource("Animation_myp56"),
-"goto_login": SubResource("Animation_sg56s")
+&"RESET": SubResource("Animation_hddh3"),
+&"goto_createaccount": SubResource("Animation_myp56"),
+&"goto_login": SubResource("Animation_sg56s")
 }
 
 [node name="LoginPanel" type="Control"]
@@ -347,5 +347,5 @@ grow_vertical = 2
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
-"": SubResource("AnimationLibrary_3bwtf")
+&"": SubResource("AnimationLibrary_3bwtf")
 }
