@@ -1,6 +1,6 @@
 [gd_scene load_steps=24 format=3 uid="uid://bo5ly7xiyj847"]
 
-[ext_resource type="Script" path="res://scenes/maps/basecamp/BaseCamp.gd" id="1_4tpho"]
+[ext_resource type="Script" uid="uid://cj4qh3s4q3rp0" path="res://scenes/maps/basecamp/BaseCamp.gd" id="1_4tpho"]
 [ext_resource type="PackedScene" uid="uid://wvx1u6p3es4m" path="res://components/map/AStarComponent/AStarComponent.tscn" id="2_kkmpe"]
 [ext_resource type="TileSet" uid="uid://pjsyexx3ov10" path="res://data/tileset/atlas.tres" id="2_vpf6b"]
 [ext_resource type="TileSet" uid="uid://d0vhi8a2dswg6" path="res://data/tileset/navcol.tres" id="3_37stb"]
